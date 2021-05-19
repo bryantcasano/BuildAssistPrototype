@@ -1,0 +1,86 @@
+.history-label {
+  text-align: left;
+  line-height: 40px;
+  font-family: Myriad Pro Regular;
+  color: #666666;
+}
+.note-truncate {
+  display: inline-block;
+  width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.note-truncate.expand {
+  white-space: normal;
+}
+.note-truncate.force_expand {
+  white-space: normal;
+}
+.note-truncate.force_collapse {
+  white-space: nowrap;
+}
+
+@media (min-width: 1484px) {
+  .float-expand-desktop {
+    float:right;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1800px) {
+
+  .note-truncate {
+    display: inline-block;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+  .padb-filter {
+    padding-bottom: 20px; 
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+ 
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+}

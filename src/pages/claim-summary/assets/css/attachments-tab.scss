@@ -1,0 +1,401 @@
+.cag-details .filter-button,
+.claim-attachments-container .filter-button {
+  box-shadow: none;
+  margin-top: 7px;
+  max-width: unset;
+  width: auto;
+}
+.cag-details .filter-button .q-btn__wrapper:before,
+.claim-attachments-container .filter-button .q-btn__wrapper:before {
+  content: none;
+}
+.claim-attachments-container .filter-button.add-attachments {
+  padding-right: 12px;
+}
+.claim-attachments-container .page__heading {
+  color: #41474E;
+  font-size: 21px;
+  margin-left: 0;
+  text-transform: none;
+}
+.claim-attachments .q-table tr > th {
+  border-bottom: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: left!important;
+}
+.claim-attachments .q-table tr > th:first-of-type {
+  padding-left: 30px;
+}
+.claim-attachments .q-table tr > td {
+	vertical-align: top;
+}
+.claim-attachments .q-table tr > td.ra-table-header {
+  background-color: #D8E1F3;
+  min-height: 56px;
+}
+.claim-attachments .q-table tr > td.ra-table-header>img {
+	margin-right: 15px;
+}
+.claim-attachments .q-table tr > td.ra-table-body {
+  font: 14px Myriad Pro Regular;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  vertical-align: top;
+}
+.claim-attachments .q-table tr > td.ra-table-body>i {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+.claim-attachments .q-table tr > td.ra-table-header:nth-of-type(2),
+.claim-attachments .q-table tr > td.ra-table-header:last-of-type{
+	vertical-align: middle;
+}
+.claim-attachments .q-table tr > td.ra-table-header:first-of-type,
+.claim-attachments .q-table tr > td.ra-table-body:first-of-type {
+  max-width: 200px;
+  overflow: hidden;
+  padding-left: 30px;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+.claim-attachments .q-table tr > td.ra-table-header:nth-of-type(2),
+.claim-attachments .q-table tr > td.ra-table-body:nth-of-type(2) {
+  width: 140px;
+  max-width: 140px;
+  white-space: normal;
+}
+.claim-attachments .q-table tr > td.ra-table-header:nth-of-type(3),
+.claim-attachments .q-table tr > td.ra-table-body:nth-of-type(3) {
+  width: 270px;
+  max-width: 270px;
+  padding-right: 90px;
+  white-space: normal;
+}
+.claim-attachments .q-table tr > td.ra-table-header:nth-of-type(4),
+.claim-attachments .q-table tr > td.ra-table-body:nth-of-type(4) {
+  max-width: 90px;
+  width: 90px;
+}
+.claim-attachments .q-table tr > td.ra-table-header:nth-of-type(5),
+.claim-attachments .q-table tr > td.ra-table-body:nth-of-type(5) {
+  max-width: 150px;
+  width: 150px;
+}
+.claim-attachments .q-table tr > td.ra-table-header:nth-of-type(6),
+.claim-attachments .q-table tr > td.ra-table-body:nth-of-type(6) {
+  max-width: 130px;
+  white-space: normal;
+  width: 130px;
+}
+.claim-attachments .q-table tr > td.ra-table-header:nth-of-type(7),
+.claim-attachments .q-table tr > td.ra-table-body:nth-of-type(7) {
+  max-width: 80px;
+  text-align: left;
+  width: 80px;
+}
+.claim-attachments .q-table tr > td.ra-table-header:nth-of-type(3) {
+  min-width: 270px;
+}
+.claim-attachments .q-table tr > td.ra-table-header:last-of-type {
+  min-width: 120px;
+}
+.claim-attachments .q-dialog {
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-width: 400px;
+  width: auto;
+}    
+.q-focusable:focus .q-focus-helper,
+.q-hoverable:hover .q-focus-helper {
+  opacity: 0!important;
+  transition: unset!important;
+}
+/*-------------- claim add attachment --------------------*/
+.custom-q-pop textarea {
+  resize: none!important;
+  max-height: 70px;
+  min-height: 70px!important;
+}
+.custom-q-pop button {
+  text-transform: capitalize;
+}
+.custom-q-pop .q-popup-edit__buttons {
+  justify-content: flex-end;
+}
+.filter-scroll.fs-add-attachment {
+  height: 320px;
+}
+.field-select-dropdown.fsd-add-attachment .q-item__section--main >.q-item {
+  padding: 8px;
+}
+.claim-attachment-gallery .close-button,
+.create-new-attachments .close-button {
+  background: #0660AE;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.claim-attachment-gallery .close-button:hover,
+.create-new-attachments .close-button:hover {
+ background:#ED4758;
+}
+.create-new-attachments .q-card {
+  max-width: 750px;
+  width: 750px;
+}
+.create-new-attachments .page__heading {
+  color: #41474E;
+  margin: 30px;
+  text-transform: capitalize;
+}
+.create-new-attachments .filter-button,
+.create-new-attachments .filter-button {
+  box-shadow: none;
+  font-family: Myriad Pro Regular;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+.create-new-attachments .filter-button .q-btn__wrapper:before,
+.create-new-attachments .filter-button .q-btn__wrapper:before {
+  content: none;
+}
+.create-new-attachments .q-card__section:nth-of-type(2) {
+  bottom: 10px;
+  left: 16px;
+  padding: 0;
+  position: absolute;
+  right: 16px;
+  top: 130px;
+}
+.create-new-attachments .filter-scroll {
+  height: 100%;
+  width: 100%;
+}
+.create-new-attachments .filter-scroll .row.container {
+  padding: 0 30px 10px;
+}
+.create-new-attachments .q-expansion-item .q-item {
+  background-color: #f3f3f3;
+  color: #41474F;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 10px 25px;
+}
+.create-new-attachments .q-expansion-item .q-item .q-expansion-item__toggle-icon {
+  color: #41474F;
+  font-weight: bold;
+}
+.create-new-attachments .details-field-container {
+	padding-left: 0!important;
+	padding-right: 0!important;
+	width: 100%;
+}
+.create-new-attachments .details-field-container > label {
+	padding-top: 5px;
+}
+.create-new-attachments .details-container .details-field-container .ext-description .q-field__control, 
+.create-new-attachments .details-container .details-field-container .ext-description textarea,
+.create-new-attachments .details-container .details-field-container .ext-description {
+	height: 150px;
+  min-height: 150px;
+}
+.create-new-attachments .q-radio {
+	width: 100%;
+}
+.create-new-attachments .q-radio__inner {
+	margin-left: -10px;
+}
+.create-new-attachments .q-uploader {
+	width: 100%;
+}
+.create-new-attachments .q-uploader .details-container {
+  padding: 0;
+}
+.create-new-attachments .q-uploader .details-field-container > label,
+.create-new-attachments .q-uploader .details-field-container {
+  padding: 0;
+}
+.create-new-attachments .q-uploader .details-field-container > .q-field__control-container,
+.create-new-attachments .q-uploader .details-field-container .q-field__control-container  textarea {
+  min-height: 40px;
+  height: 40px;
+}
+.create-new-attachments .q-uploader__header {
+	background-color: #f3f3f3;
+}
+.create-new-attachments .q-uploader__header-content {
+	padding: 10px 25px;
+}
+.create-new-attachments .q-uploader__header-content > * {
+	margin: 0;
+}
+.create-new-attachments .q-uploader__header-content > a.q-btn:nth-last-of-type(3) {
+	display: none;
+}
+.create-new-attachments .q-uploader__header-content > a.q-btn:nth-of-type(3) .material-icons{
+	color: #F2A100!important;
+}
+.create-new-attachments .q-uploader__title {
+	color: #41474F;
+  font-size: 19px;
+  margin-top: 5px;
+}
+.create-new-attachments .q-uploader__subtitle {
+	display: none;
+}
+.create-new-attachments .q-uploader__header-content > .q-btn .material-icons {
+	color: #0660AE;
+	font-size: 20px;
+	right: -2px;
+	top: 2px;
+}
+.create-new-attachments .cropped {
+  height: 75px;
+  margin-right: 15px;
+  overflow: hidden;
+  width: 65px;
+}
+.create-new-attachments .cropped > img {
+  height: 75px;
+  margin: -10px 0px 0px -5px;
+  width: auto;
+}
+.create-new-attachments .q-uploader .q-item__section > .q-item__label:first-of-type {
+  color: #41474F;
+  font-size: 17px;
+  font-weight: 600;
+}
+.create-new-attachments .q-uploader__list .q-list > .q-item {
+  padding-top: 20px;
+}
+.create-new-attachments .q-uploader__list .q-list > .q-item:first-of-type { 
+  padding-top: 10px;
+}
+.create-new-attachments .q-uploader__list {
+	border-bottom: 0;
+	border-left: 1px dashed #b5d0ed;
+	border-right: 1px dashed #b5d0ed;
+	border-top: 0;
+	margin: 0;
+	padding: 10px 25px;
+}
+
+.create-new-attachments .q-uploader__list.scroll:last-of-type {
+	border-bottom: 1px dashed #b5d0ed;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+  min-height: 100px;
+	padding-bottom: 10px;
+}
+.create-new-attachments .q-uploader__list.scroll .q-item__section:nth-of-type(3) {
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+.claim-attachment-gallery {
+  height: 800px;
+	max-width: 1200px!important;
+  min-height: 300px;
+  overflow: hidden!important;
+	width: 1200px;
+}
+.claim-attachment-gallery .page__heading {
+	text-transform: capitalize;
+}
+.claim-attachment-gallery .table-container {
+  height: 100%;
+  padding: 30px 50px 30px;
+}
+.claim-attachment-gallery .q-table__container {
+  min-height: 620px;
+  padding: 15px;
+}
+.claim-attachment-gallery .q-table__container .q-table__grid-content {
+  flex: unset;
+}
+.claim-attachment-gallery .q-table__container .q-card {
+  box-shadow: none;
+}
+.claim-attachment-gallery .q-table__container .q-table__bottom  {
+    left: -25px;
+    position: absolute;
+    top: -45px;
+}
+.claim-attachment-gallery .q-table__container .q-card > .q-card__section {
+  padding: 0;
+}
+.claim-attachment-gallery .filter-scroll {
+  height: 100%;
+  width: 100%;
+}
+.claim-attachment-gallery .filter-scroll > .scroll >.absolute.full-width {
+  min-height: 650px;
+}
+.claim-attachment-gallery .q-card__section:nth-of-type(2) {
+  bottom: 10px;
+  left: 16px;
+  padding: 0;
+  position: absolute;
+  right: 16px;
+  top: 110px;
+}
+.cag-image-container {
+  max-height: 150px;
+  padding: 5px;
+}
+.cag-details {
+  padding: 0 50px 30px;
+}
+.cag-details > div:nth-of-type(2) > div,
+.cag-details > div:nth-of-type(2) > div > div {
+  padding-top: 0;
+}
+.cag-details .details-container {
+  padding-right: 0;
+}
+.cag-details > div:nth-of-type(2) .details-field-container > div:last-of-type {
+  padding-top: 20px;
+}
+.cag-details .filter-button {
+  width: 120px;
+}
+
+@media (max-width: 1024px) {
+  .claim-attachment-gallery {
+    height: 600px;
+  }
+  .claim-attachment-gallery .q-table__container {
+    min-height: 400px;
+  }
+  .claim-attachment-gallery .filter-scroll > .scroll >.absolute.full-width {
+    min-height: 450px;
+  }
+  .cag-details { 
+    padding: 0 20px 30px; 
+  }
+  .create-new-attachments .page__heading > div {
+    width: 100%;
+  }
+  .create-new-attachments .page__heading > div.col {
+    flex: auto;
+  }
+  .create-new-attachments .page__heading > div.col > .float-right {
+    float: left;
+  }
+  .create-new-attachments .page__heading > div.col > .float-right > button:first-of-type {
+    margin-left: 0;
+  }
+  .create-new-attachments .q-card__section:nth-of-type(2) {
+    top: 160px;
+  }
+}

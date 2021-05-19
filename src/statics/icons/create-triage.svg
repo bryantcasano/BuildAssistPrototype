@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.299" height="17.623" viewBox="0 0 14.299 17.623">
+  <g id="create-triage" transform="translate(23591.5 11342.5)">
+    <g id="Group_692" data-name="Group 692" transform="translate(1161.855 19.306)">
+      <path id="Path_348" data-name="Path 348" d="M14.311,3H7.662A1.662,1.662,0,0,0,6,4.662v13.3a1.662,1.662,0,0,0,1.662,1.662h9.974A1.662,1.662,0,0,0,19.3,17.961V7.987Z" transform="translate(-24758.855 -11364.306)" fill="none" stroke="#41474e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_349" data-name="Path 349" d="M21,3V7.987h4.987" transform="translate(-24765.545 -11364.306)" fill="none" stroke="#41474e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <g id="Icon_feather-user" data-name="Icon feather-user" transform="translate(-24749.025 -11353.652)">
+        <path id="Path_359" data-name="Path 359" d="M10.73,24.274v-.591A1.182,1.182,0,0,0,9.547,22.5H7.182A1.182,1.182,0,0,0,6,23.682v.591" transform="translate(-6 -18.953)" fill="none" stroke="#41474e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Path_360" data-name="Path 360" d="M14.365,5.682A1.182,1.182,0,1,1,13.182,4.5,1.182,1.182,0,0,1,14.365,5.682Z" transform="translate(-10.818 -4.5)" fill="none" stroke="#41474e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,305 @@
+
+/*CSS for  claim summary page*/
+  .claim-summary {
+    margin:0px 0px 0px 0px
+  }
+  
+  
+  /*CSS for  banner*/
+.banner {
+  border-bottom: solid 1px #ffffff;
+  padding: 17px 10px 18px 10px;
+  background-color: #E6EBF1;
+  border-bottom: solid 1px #DFE2E5;
+  width: 100%;
+}
+.watchlist-icon {
+  background-color: #F2F5F8;
+  border: solid 1px #ffffff;
+  color: #a6a6a6;
+  padding: 0px;
+  margin-left: 10px;
+}
+.watchlist-icon .q-btn__wrapper {
+  padding: none;
+}
+.sensitive-icon {
+  background-color: #3570E0;
+  color: #ffffff;
+  padding: 0px;
+  margin-left: 10px;
+}
+.banner-col1 {
+  width:115px!important;
+}
+.banner-col2 {
+  width:110px!important;
+}
+.banner-col3 {
+  width:115px!important;
+}
+.banner .q-badge {
+  border-radius: 0px;
+}
+.banner-claimno {
+  font-family: Myriad Pro Regular;
+  font-size: 30px;
+  color: #666666;
+  margin-left: 10px;
+}
+.banner-field {
+  color: #333333;
+  font-family: Myriad Pro SemiBold;
+}
+.claimant-updates-progress {
+  border: solid 1px #ffffff;
+  color: #F9C817;
+  background-color: #ffffff;
+  margin-top: 3px;
+}
+.insurer-updates-progress {
+  border: solid 1px #ffffff;
+  color: #F68703;
+  background-color: #ffffff;
+  margin-top: 3px;
+}
+.claim-summary__cardcontent {
+  padding: 0px 10px 0px 10px;
+  color: #666666;
+}
+.q-card-banner {
+  box-shadow: none!important;
+  border-radius: 0px;
+  background-color: #E6EBF1;
+}
+  /* tabs style */
+  .tab-title .q-tab {
+    text-align: left;
+    font: 16px Myriad Pro Regular;
+    letter-spacing: 0px;
+    text-transform: capitalize !important; 
+    min-height: 15px!important;
+    transition: color .3s, background-color .3s;
+    white-space: nowrap;
+    color: #000;
+    text-decoration: none;
+    background-color: #F2F5F8;
+    justify-content: left;
+  }
+  .tab-title .q-tab:active {
+    color: #000;
+  }
+  .lefttab {
+    padding: 10px 20px 0px 20px;
+  }
+  .lefttab .q-tab--inactive {
+    opacity: 0.65;
+  }
+  .lefttab2 {
+    padding: 0px 0px 0px 12px;
+    border-left: solid 3px #3570E0;
+    margin-left: 4px;
+  }
+  .lefttab .q-tab-panel {
+    padding: 0px 0px 0px 0px;
+  }
+  .claim-summary .banner > .q-card-banner:first-of-type {
+    max-width: 215px;
+    min-width: 215px;
+  }
+  .claim-summary .q-tab-panels {
+    background: #F2F5F8;
+  }
+  .lefttab .q-tab__content {
+    height: inherit;
+    padding: 3px 0px;
+    min-width: 40px;
+  }
+  .nav-item span {
+    display: none;
+  }
+  .lefttab-icon {
+    font-size: 12px; 
+    opacity: 0.65;
+    margin-right: 5px;
+  }
+  /* Show the one that's active */
+  .nav-item .active span {
+    display: inline-block;
+  }
+  /* tabs content style */
+  .page__heading {
+    margin-bottom: 10px;
+  }
+  
+  /*---------CSS for section expansion item-----*/
+  .claim-section-ei.q-expansion-item {
+    background: transparent!important;
+    font-size: 15px!important;
+  }
+  .claim-section-ei.q-expansion-item .q-item {
+    background-color: #c9c9c7;
+    color: #41474F;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 10px 25px;
+  }
+  .claim-section-ei.q-expansion-item .details-field-container {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    width: 100%;
+  }
+  .claim-section-ei.q-expansion-item .q-item .q-expansion-item__toggle-icon {
+    color: #41474F;
+    font-weight: bold;
+  }
+  .claim-section-ei.q-expansion-item .details-field-container > label.bold {
+    font-weight: 600;
+  }
+  .claim-section-ei.q-expansion-item .q-radio {
+    width: 100%;
+  }
+  .claim-section-ei.q-expansion-item .q-radio__inner {
+    margin-left: -10px;
+  }
+  .claim-section-ei.q-expansion-item .details-field-container > label.reset-notify {
+    text-decoration: underline;
+  }
+  .claim-section-ei .details-container .details-field-container .notes .q-field__control, 
+  .claim-section-ei .details-container .details-field-container .notes textarea,
+  .claim-section-ei .details-container .details-field-container .notes {
+    height: 150px;
+    min-height: 150px;
+  }
+  /*---------CSS for lodgement tab-----*/
+  .claiminfo {
+    border: 1px solid #dfe2e5;
+    box-shadow: none;
+    border-radius: 0px;
+    font: 14px Myriad Pro Regular;
+    color: #666666;
+    background-color: #ffffff;
+  }
+  .claiminfo-card {
+    box-shadow: none!important;
+    border-radius: 0px;
+  }
+  .claiminfo-heading {
+    background-color: #7C7D91;
+    color: #ffffff;
+    padding: 10px 0px 10px 20px;
+  }
+  .claimpolicy-heading {
+    background-color: #F2F5F8;
+    color: #494949;
+    padding: 10px 0px 10px 20px;
+    font: 14px Myriad Pro Semibold;
+    border-bottom: solid 1px #ffffff;
+  }
+  .claiminfo-label {
+    display: block;
+    color: #494949;
+    font: 14px Myriad Pro Semibold;
+    padding: 20px 0px 0px 20px;
+  }
+  .claiminfo-span {
+    display: block;
+    padding: 0px 0px 0px 20px;
+  }
+  .claimcontact-label {
+    display: block;
+    color: #494949;
+    font: 14px Myriad Pro Semibold;
+    padding: 20px 0px 5px 20px;
+  }
+  .claimcontact-span {
+    display: block;
+    padding: 0px 0px 5px 20px;
+  }
+  .contact-notes {
+    border: solid 1px #E0E3E6;
+    box-shadow: solid 1px #ffffff;
+  }
+  .claimpolicy-label {
+    color: #494949;
+    font: 14px Myriad Pro Semibold;
+    margin: 0px 0px 0px 20px;
+  }
+  .claimpolicy-span {
+    padding: 0px 0px 0px 10px;
+  }
+  .policy-details {
+    border: solid 1px #E0E3E6;
+    background-color: #F8F8F8;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+  /* 
+    ##Device = Desktops
+    ##Screen = 1281px to higher resolution desktops
+  */
+  
+  @media (min-width: 1281px) {
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .banner-claimno {
+      font-family: Myriad Pro Regular;
+      font-size: 30px;
+      color: #666666;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .claim-summary .banner > .q-card-banner:first-of-type {
+      max-width: none;
+      min-width: none;
+    }
+  }
+
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+  
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+ 
+  }

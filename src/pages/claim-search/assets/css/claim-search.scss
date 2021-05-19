@@ -1,0 +1,121 @@
+/** Start of Claims Search Page Styles **/
+.claim-search .page-filter .q-field__inner,
+.claim-search .page-filter > .col-lg-auto > * {
+    max-width: 195px!important;
+}
+.claim-search .page-filter .page__header {
+    margin-left: 20px;
+    text-align: left;
+}
+.claim-search .page-filter .col-xs-auto {
+    margin-bottom: 12px;
+}
+.claim-search .page-filter .text-search-filter {
+    margin-right: 10px;
+    width: auto;
+}
+.claim-search .page-filter .base-filter-select {
+    margin-right: 10px;
+    width: 194px!important;
+}
+.claim-search .page-filter .text-search-filter .q-field__control {
+    padding-right: 7px;
+}
+.claim-search .page-filter .text-search-filter .search-icon {
+    padding-left: 8px;
+}
+.claim-search .page-filter .text-search-filter input {
+    padding-right: 3px;
+}
+.claim-search .page-filter .mobile-btn-mg > button {
+    height: 40px;
+    margin-left: 0;
+    margin-right: 10px;
+    max-width: auto;
+    width: auto;
+}
+.claim-search .page-filter .q-btn-dropdown {
+    margin-right: 10px;
+    width: 195px;
+}
+.claim-search .table-heading-container,
+.claim-search .table-container {
+    margin: 0 30px;
+}
+.claim-search .table-heading-container {
+    margin-top: 20px;
+}
+.claim-search .q-table__container {
+    margin: 0;
+}
+.claims__header {
+    font-size: 35px;
+    color: #222222;
+    text-transform: uppercase;
+    margin: 30px 0px 0px 66px;
+}
+.claims__tabs {
+    max-width: 100%;
+    margin: 30px 15px 30px 15px;
+}
+.claims__tabs label {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 5px 70px 0px 0px;
+}
+.claims__tabs .q-badge {
+    border-radius: 15px;
+    right: 40px;
+}
+.claims__filter {
+    border: none;
+    margin: 40px;
+}
+.claims__filter div .q-btn-dropdown {
+    text-transform: capitalize;
+    font: 14px Myriad Pro Regular;
+    color: #222222;
+}
+.claims__filter div .q-badge {
+    background-color: #62BA71;
+    font-size: 9px;
+    padding-top: 3px;
+}
+.claims__filter div .q-btn {
+    box-shadow: none;
+    text-transform: capitalize;
+}
+.claims__heading {
+    font-weight: 600;
+    color: #222222;
+    font-size: 26px;
+}
+.claims__content-text {
+    padding: 10px 15px;
+}
+.claims__btn-claim {
+    box-shadow: none;
+    text-transform: capitalize;
+    width: 129px;
+    height: 35px;
+    margin: 0px 50px 20px 53px;
+}
+.dashboard-address {
+    max-width:145px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tooltip-table {
+    background-color: #ffffff;
+    color: #473899;
+    border: 1px #473899 solid;
+    border-radius: 0px;
+}
+.bg-hover-green:hover {
+    background-color: #c4eccb;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .claims__heading {
+        margin: 0px 0px 0px 15px;
+    }
+}

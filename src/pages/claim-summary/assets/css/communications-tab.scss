@@ -1,0 +1,363 @@
+.communications-label {
+    text-align: left;
+    line-height: 40px;
+}
+.communications-btn {
+    background-color: #30256a;
+    color: #ffffff; 
+    margin: 0px 5px 0px 0px;
+    border-radius: 0px;
+}
+.light-communications-btn {
+    width: 140px;
+    max-width: 140px;
+    color: #6AA0DB;
+    background-color: #ffffff;
+    border: 1px solid #6AA0DB;
+}
+.note-truncate {
+    display: inline-block;
+    width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.note-truncate.expand {
+    white-space: normal;
+}
+.note-truncate.force_expand {
+    white-space: normal;
+}
+.note-truncate.force_collapse {
+    white-space: nowrap;
+}
+.communications-table {
+    margin: 0px;
+}
+.communications__table {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0px;
+    font: 14px Myriad Pro Regular;
+    max-height: 600px;
+    box-shadow: none;
+    border: 1px solid #dfe2e5;
+    color: #666666;
+}
+.communications__table th {
+    font: 16px Myriad Pro Semibold;
+    color: #222222;
+    opacity: 1;
+}
+.communications__table th:nth-last-child(2) {
+    text-align: left;
+}
+.communications__table td:nth-last-child(2) {
+    text-align: left;
+}
+.communications__table .q-icon, .material-icons th{
+    color: #62BA71;
+    margin-top: -1px;
+    opacity: 1;
+}
+.communications__table .q-icon.note-toggle {
+    color: #62BA71;
+    font-size: 18px;
+    font-weight: 600;
+}
+.communications__table .q-icon.note-icon {
+    border: 1px solid #0660AE;
+    color: #FFFFFF;
+    background-color: #0560ae;
+    cursor: pointer;
+    font-size: 12px;
+}
+.communications__table .q-table tbody tr:hover {
+    background: #C4ECCB 0% 0% no-repeat padding-box;
+    mix-blend-mode: darken;
+    opacity: 1;
+}  
+.communications__table .q-table tbody td {
+    padding-top: 14px;
+    vertical-align: top;
+}
+.padb-filter .q-field__control,
+.padb-filter .q-field__marginal {
+    height: 40px;
+}
+
+.q-expansion-item.q-item {
+    color: #41474E;
+    padding: 11px 30px 11px;
+}
+.q-select {
+    font-size: 13px;
+}
+.q-field--standard .q-field__control:hover:before,
+.q-field--standard .q-field__control::before,
+.q-field--standard .q-field__control::after {
+    border: none;
+}
+.customTextColor .q-field__native {
+    color: #0560ae;
+}
+.close {
+    background: #0560ae; 
+    color: #fff; 
+    font-size: 18px; 
+    padding: 15px; 
+    position: absolute; 
+    right: 0; 
+    top: 0;
+}
+.contactlist-header {
+    width: 100%; 
+    text-align: left; 
+    font: 22px Myriad Pro Semibold; 
+    letter-spacing: 0px; 
+    color: #41474E; 
+    opacity: 1; 
+    background: #F3F3F3 0% 0% no-repeat padding-box; padding: 11px 30px 11px
+}
+.dialog__header {
+    margin-top: 40px; 
+    margin-right: 80px; 
+    margin-left: 50px;
+}
+.dialog__title {
+    text-align: left; 
+    font: 35px Myriad Pro Semibold; 
+    letter-spacing: 0px; 
+    color: #41474E; 
+    opacity: 1;
+}
+.dialog__btn {
+    width: 100%;
+    background-color: #30256a;
+    color: #ffffff; 
+}
+.dialog__spacing {
+    margin-bottom: 40px; 
+    margin-right: 80px; 
+    margin-left: 80px;
+}
+.dialog__spacing > .q-list {
+    width: 100%;
+}
+.dialog__spacing > .q-list > .q-expansion-item {
+    width: 100%; 
+    text-align: left; 
+    font: 22px Myriad Pro Semibold; 
+    letter-spacing: 0px; 
+    color: #41474E; 
+    opacity: 1; 
+    background: #F3F3F3 0% 0% no-repeat padding-box; 
+    margin-top: 15px;
+}
+.dialog__expansion-item {
+    width: 100%; 
+    text-align: left; 
+    font: 22px Myriad Pro Semibold; 
+    letter-spacing: 0px; 
+    color: #41474E; 
+    opacity: 1; 
+    background: #F3F3F3 0% 0% no-repeat padding-box; 
+    margin-top: 15px;
+}
+.dialog__expansion-item .q-expansion-item__toggle-icon {
+    color: #41474E;
+}
+.dialog__spacing > .q-list > .q-expansion-item .q-expansion-item__toggle-icon {
+    color: #41474E;
+}
+
+.email-dialog__spacing {
+    margin: 0px;
+}
+.email-dialog__spacing > .q-list {
+    width: 100%;
+}
+.email-dialog__spacing > .q-list > .q-expansion-item {
+    width: 100%; 
+    text-align: left; 
+    font: 22px Myriad Pro Semibold; 
+    letter-spacing: 0px; 
+    color: #41474E; 
+    opacity: 1; 
+    background: #F3F3F3 0% 0% no-repeat padding-box; 
+    margin-top: 15px;
+}
+.email-dialog__spacing > .q-list > .q-expansion-item .q-expansion-item__toggle-icon {
+    color: #41474E;
+}
+
+.text-bold {
+    text-align: left; 
+    font: 16px Myriad Pro Semibold; 
+    letter-spacing: 0px; 
+    color: #41474E; 
+    opacity: 1;
+}
+.text-regular {
+    text-align: left;
+    font: 16px Myriad Pro Regular; 
+    letter-spacing: 0px; 
+    color: #41474E; 
+    opacity: 1; 
+}
+.text-regular > .textarea {
+    border: 1px solid #BBBBBB;
+    padding: 0px 10px 20px 10px;
+}
+
+.reset-notify__btn {
+    text-transform: capitalize; 
+    text-decoration: underline; 
+    font: 16px Myriad Pro Semibold;
+}
+
+.attachments__table {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font: 14px Myriad Pro Regular;
+    color: #222222;
+    box-shadow: none; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+.attachments__table th {
+    font: 14px Myriad Pro Semibold;
+    color: #222222;
+    opacity: 1;
+}
+.acccesslevel-column {
+    width: 220px;
+}
+
+@media (min-width: 1484px) {
+    .float-expand-desktop {
+        float:right;
+    }
+}
+@media (min-width: 1440px) and (max-width: 1800px) {
+    .communications-btn {
+        width: 120px;
+        max-width: 120px;
+        color: #ffffff; 
+        background-color: #30256a;
+    }
+    .light-communications-btn {
+        width: 120px;
+        max-width: 120px;
+        color: #30256a;
+        background-color: #ffffff;
+        border: 1px solid #30256a;
+    }
+    .note-truncate {
+        display: inline-block;
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+    .padb-filter {
+        padding-bottom: 20px; 
+    }
+    .communications__table .q-icon.note-icon {
+        border: 1px solid #30256a;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .tab-ml {
+        margin-left: 25px;
+    }
+    .note-truncate {
+        display: inline-block;
+        width: 400px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .communications-btn {
+        width: 100px;
+        max-width: 100px;
+        background-color: #30256a;
+        color: #ffffff; 
+    }
+    .light-communications-btn {
+        width: 100px;
+        max-width: 100px;
+        color: #30256a;
+        background-color: #ffffff;
+        border: 1px solid #30256a;
+    }
+    .padb-filter {
+        padding-bottom: 20px; 
+    }
+    .communications__table .q-icon .note-icon {
+        border: 1px solid #30256a;
+        color: #FFFFFF;
+        background-color: #30256a;
+        cursor: pointer;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .tab-ml {
+    margin-left: 25px;
+    }
+    .note-truncate {
+        display: inline-block;
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ 
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .communications__table {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #30256a;
+        border-radius: 10px;
+        font: 14px Myriad Pro Regular;
+        color: #222222;
+        max-height: none !important;
+    } 
+}

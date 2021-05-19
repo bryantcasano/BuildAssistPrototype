@@ -1,0 +1,35 @@
+.loginbg {
+  /* The image used */
+  background-image: url(~assets/images/loginbg.png);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-logo {
+  width: 70%;
+  margin-bottom: 20px;
+}
+.login-logo-container {
+  text-align: center;
+  width: 300px;
+}
+.login-info {
+  margin-top: -5%;
+  width: 300px;
+}
+.login-p {
+  width: 300px!important;
+}
+@media (min-width: 1400px) and (max-width: 3024px) {
+  
+  .login-info {
+    margin-top: -5%;
+    margin-left: 20%;
+  }
+  
+}

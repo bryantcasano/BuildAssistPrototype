@@ -1,0 +1,58 @@
+
+  .draft-letters-container .page__heading {
+    color: #41474E;
+    font-size: 21px;
+    margin-left: 0;
+    text-transform: none;
+  }
+  .draft-letters-container .bold {
+    font-weight: 600;
+  }
+  .draft-letters-container table tr th,
+  .draft-letters-container table tr td {
+    text-align: left!important;
+    vertical-align: top;
+  }
+  .draft-letters-container table tr th {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .draft-letters-container table tr td {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .draft-letters-container table tr th:first-of-type,
+  .draft-letters-container table tr td:first-of-type  {
+    padding-left: 35px;
+  }
+  .draft-letters-container table tr th:nth-of-type(2),
+  .draft-letters-container table tr td:nth-of-type(2), 
+  .draft-letters-container table tr th:nth-of-type(5),
+  .draft-letters-container table tr td:nth-of-type(5){
+    max-width: 120px;
+    min-width: 120px;
+    white-space: normal;
+  }
+  .draft-letters-container table tr th:nth-of-type(4),
+  .draft-letters-container table tr td:nth-of-type(4)  {
+    max-width: 150px;
+    min-width: 150px;
+    white-space: normal;
+  }
+  .draft-letters-container table tr th:last-of-type,
+  .draft-letters-container table tr td:last-of-type  {
+    min-width: 100px;
+    padding-right: 25px;
+  }
+  .draft-letters-container table tr td:last-of-type > img,
+  .draft-letters-container table tr td:last-of-type > .md-icon {
+    margin-right: 15px;
+  }
+  .draft-letters-container table tr td:last-of-type .md-icon {
+    color: #0660AE;
+    cursor: pointer;
+  }
+  .draft-letters-container table tr td:last-of-type .md-icon.not-active {
+    color: #D6D5D5;
+    cursor: not-allowed;
+  }

@@ -1,0 +1,76 @@
+/*CSS for all login pages*/
+.login__input {
+  border: 0.7px solid $primary;
+  border-radius: 0px;
+  padding: 1px 5px 1px 15px;
+  color: #D2D2D2;
+  width: 100%;
+  background-color: #FFFFFF;
+  font: 14px Myriad Pro Regular!important;
+  width: 300px;
+}
+input:-webkit-autofill
+{
+ -webkit-fill-color:#666666 !important;
+ -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+#login__submit {
+  background-color: $primary;
+  font: 14px Myriad Pro Regular;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  text-transform: none;
+  width: 100%;
+  border-radius: 0px;
+  height: 35px;
+  width: 300px;
+}
+
+.login__text {
+  font: 14px Myriad Pro Regular;
+  color: #41474E;
+  letter-spacing: 0;
+  text-decoration: none;
+  line-height: 40px;
+}
+.login-heading {
+  display: block;
+  color: #494949;
+  font: 16px Myriad Pro Semibold;
+}
+
+.login__mail {
+  color: $primary;
+  text-decoration: none;
+}
+
+/* END css for all login pages*/
+
+/* Forgot password page*/
+.login__forgoticon {
+  color: #9494A4;
+  vertical-align: middle;
+  line-height: 35px;
+  padding-right: 5px;
+  padding-bottom: 4px;
+}
+
+.login__iconwarning {
+  font-size: 1.5rem;
+  line-height: 20px;
+  padding: 0px 10px 0px 0px;
+}
+/* End Forgot password page*/
+
+
+@media only screen and (max-width: 1119px) {
+
+  .login-bottom {
+    width: 150px;
+    font-size: 12px!important;
+    text-align: center;
+    margin-left: 30%;
+  }  
+
+
+}

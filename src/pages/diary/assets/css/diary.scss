@@ -1,0 +1,132 @@
+/** Start of Diary Page Styles **/
+.diary-prl{
+    padding-right: 70px;
+    padding-left: 15px;
+}
+.diary__content {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #dfe2e5;
+    border-radius: 0px;
+    font-size: 14px;
+    min-height: 340px;
+    padding: 30px;
+    color: #666666;
+    box-shadow: none;
+}
+.diary__btn-claim {
+    width: 129px;
+    height: 35px;
+    float: right;
+    background-color: #216fdd;
+    color: #ffffff;
+    border-radius: 0px;
+}
+.hline {
+  margin-top: 20px;
+  margin-right: 16px;
+}
+@media (min-width: 1920px) {
+  .diary__content {
+      margin-right: -50px;
+      margin-left: 30px;
+      width: 110%;
+    }
+  }
+@media (min-width: 1440px) and (max-width:1458px){
+  .hline {
+    margin-top: 30px;
+  }
+  .reset-filter {
+    background-color: #30256a;
+    padding: 0px 10px 0px 10px;
+    margin: 10px 0px 0px 0px;
+  }
+}
+@media (min-width: 1440px) and (max-width:1919px){
+.diary__content {
+    margin-right: -50px;
+    margin-left: 30px;
+  }
+  .hline {
+    margin-top: 20px;
+    margin-right: 5px!important;
+  }
+  .reset-filter {
+    margin-left: 15px;
+  }
+}
+@media (min-width: 1024px) and (max-width:1439px) {
+.diary__content {
+    margin-bottom: 40px;
+    margin-right: -25px;
+    }
+ .hline {
+   margin-top: 20px;
+   margin-right: 5px!important;
+ }
+  .diaryml-15 {
+    margin-left: 15px;
+  }
+  .diary-prl {
+    padding-right: 0px;
+    padding-left: 15px;
+  }
+}
+@media (min-width: 1024px) and (max-width:1365px) { 
+  .diaryptb-10 {
+    padding: 0px 0px 10px 0px;
+  }
+  .diarypl-10 {
+    padding-left: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .diaryptb-10 {
+    padding: 10px 0px 10px 0px;
+  }
+  .diarypl-10 {
+    padding-left: 10px;
+  }
+  .diaryml-15 {
+    margin-left: 15px;
+  }
+  .diary-prl {
+    padding-right: 0px;
+    padding-left: 15px;
+  }
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.diary__content {
+    margin-right: -25px;
+    } 
+
+  .text-search-filter {
+    width: 250px;
+    height: 40px;
+    background-color: #ffffff;
+  }
+  .diary-pr {
+    padding-right: 20px;
+  }
+
+}
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+.diary__content {
+    margin-bottom: 40px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .ptb-10 {
+    padding: 10px 0px 10px 0px;
+  }
+}

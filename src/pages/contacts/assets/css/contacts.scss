@@ -1,0 +1,444 @@
+
+/*CSS for  contact page*/
+/* defaults ------------------------------*/
+/*blue  #0660AE */
+/*red   #fc0000 */
+/*back  #222    */
+/*green #c4eccb */
+
+/*fixes for iPad and iPad Pro*/
+.q-field__control,
+.q-field__marginal { 
+  height: auto; 
+}
+
+/* global class for Contacts -------------*/
+body.desktop .q-focusable:focus .q-focus-helper,
+body.desktop .q-hoverable:hover .q-focus-helper {
+  background: inherit;
+  opacity: 0;
+}
+body.ios .q-hoverable:active .q-focus-helper {
+  background: inherit;
+  opacity: 0;
+}
+button.q-btn {
+  border-radius: 0px;
+}
+button.q-btn,
+.q-btn__wrapper:before {
+  box-shadow: none; 
+}
+.q-focus-helper {
+  opacity: 0;
+  transition: unset;
+}
+.q-dialog__inner > .q-card > .q-card__actions .q-btn--rectangle .q-btn__wrapper {
+  padding: 4px 16px;
+}
+
+/* class adons ---------------------------*/
+.red  { 
+  color: #fc0000!important; 
+}
+.height-auto { 
+  height: auto!important; 
+}
+.mleft15 { 
+  margin-left: 15px; 
+}
+.mright10 { 
+  margin-right: 10px; 
+}
+.mtop40 { 
+  margin-top: 40px; 
+}
+.text-underline { 
+  text-decoration: underline;
+}
+.width-limit-360 { 
+  max-width: 360px!important; 
+  min-width: 360px!important;
+}
+
+/* class for contacts base filter search ---*/
+.q-item.base-filter { 
+  padding:8px; 
+}
+.base-filter.search-only { 
+  min-width: 250px!important; 
+}
+.base-filter.search-only .q-field__prepend { 
+  padding-right: 5px; 
+}
+.base-filter.search-only i.q-icon { 
+  padding-left: 5px; 
+}
+.base-filter.search-only .filter-search .q-field__control,
+.base-filter.search-only .filter-search .q-field__prepend { 
+  height: 36px; 
+}
+
+/* class for Contacts Page Heading Section */
+.page__heading i.icon-delete {
+  color: #fc0000!important;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+.filter-button {
+  width: auto;
+  max-width: unset; 
+}
+.filter-button.green {
+  background-color: #62BA71!important; 
+}
+
+.filter-popup {
+  width: 350px;
+  height: 230px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 7px 3px 6px #00000029 !important;
+  border: 1px solid #CBC9C9;
+  border-radius: 17px !important;
+  opacity: 1;
+  color: #666;
+}
+.filter-popup.fixed{
+    overflow: hidden;
+}
+
+.filter-popup .q-card__section { 
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom: 10px; 
+}
+.filter-popup .q-card__actions { 
+  padding-bottom: 30px; 
+}
+.filter-popup .q-card__actions>button {  
+  margin: 16px 20px; 
+}
+.filter-popup-container { 
+  margin: 10px 25px 0; 
+}
+.filter-popup-container.adjust-top { 
+  margin-top: 0; 
+}
+.filter-popup-container .details-container { 
+  padding: 0; 
+}
+
+/* class for form field container --------- */     
+.dropdown-label { 
+  font-size: 14px!important; 
+}
+
+/* class for Contact Tables ----------------*/
+.q-table__bottom--nodata > i{
+  color: #666666!important;  
+}
+
+.tooltip-table {
+  background-color: #ffffff;
+  border: 1px #473899 solid;
+  border-radius: 0;
+  color: #473899;
+  font-size: 11px;
+}
+.tooltip-table.icon { 
+  margin-top: -12px; 
+}
+.tooltip-grid.icon { 
+  font-size: 12px;
+  padding: 4px 10px;
+  margin-top: -15px; 
+}
+.grid-label { 
+  opacity: .54; 
+}
+.grid-icons {
+  font-size: 16px;
+  width: 100%;
+}
+.contacts .filter-label {
+  margin-right: 30px;
+}
+/* media query for global Contacts -------*/
+
+/* for mobile view ==========*/
+@media (max-width: 767px) {
+  .table-heading-container,
+  .table-container { 
+    margin: 20px 0!important; 
+  }
+  .filter-popup.large-notification {  
+    min-width: unset; 
+  }
+  .filter-popup.large-notification .q-card__section {  
+    font-size: 20px;
+    text-align: center; 
+  }
+  .contacts .page__heading .float-right { 
+    margin-right: 0!important; 
+  } 
+  .contacts .page__heading .float-right>button { 
+    font-size: 14px;
+    margin-top: 3px; 
+  } 
+  .page-filter .right-panel-container { 
+    margin-right: 0!important; 
+  }
+}
+
+
+/* specific custom class for contacts page only--*/
+.page__heading .float-right>button,
+.contacts .page-filter .right-panel .q-btn{
+  height: 40px;
+  font-size: 14px;
+  margin-left: 10px;
+  width: auto;
+}
+
+.contacts .filter-badge {
+  left: -46px;
+  top: -2px;
+}
+.contacts .filter-badge.for-search {
+  left: -14px;
+}
+.contacts .badge-container {
+  float: right;
+  width: 20px;
+}
+.contacts .material-icons.on-right {
+  color:#41474E; 
+  font-size:20px;
+  font-weight:bold;
+}
+.contacts .page-filter {
+  padding: 1px 10px 0;
+}
+.contacts .page-filter > div:nth-of-type(2) .filter-fld,
+.contacts .page-filter > div:nth-of-type(2) .filter-btn {
+  padding: 10px 0 10px 10px;
+}
+.contacts .page-filter > div:nth-of-type(2) .filter-btn > button {
+  margin-left: 0;
+  min-height: 40px;
+}
+.contacts .page-filter > div:nth-of-type(2) .filter-btn > .my-filter {
+  margin-left: 0;
+  width: auto;
+}
+.contacts-address {
+  max-width:115px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.contacts-act i{
+  cursor:pointer;
+  font-size:16px;
+}
+.contacts-act i:first-of-type{
+  color: #fc0000!important;
+  margin-right:20px;
+}
+.contacts-act.adjust-left { 
+  width: 100px;
+}
+.contacts-act.adjust-left i { 
+  padding-left: 100px; 
+}
+.contacts .page-filter .page__header {
+  margin:0 15px 0 15px;
+}
+.contacts .contacts-address {
+  width: 25%;
+}
+.q-table th>i.q-icon {
+  font-size: 105%;
+  font-weight: bold;
+  margin-left: 10px;
+  padding:0 0 3px 3px;
+}
+.dropdown-label .q-icon:first-of-type,
+.dropdown-label.no-arrow .q-icon {
+  display:none;
+}
+.savefilter-popup .q-btn {
+  font-size: 0.94em;
+  margin-top:2px;
+}
+.savefilter-popup .q-placeholder { 
+  font-size:18px;
+}
+/*overide from  app.scss default */
+.page__table td:nth-last-child(1),
+.page__table td:nth-last-child(2),
+.page__table th:nth-last-child(2) {
+  text-align:left;
+}
+
+.table-container table th:first-of-type,
+.table-container table td:first-of-type { 
+  padding-left: 50px; 
+  width: auto!important;
+}
+.table-container table th:last-of-type,
+.table-container table td:last-of-type { 
+  padding-right: 50px; 
+  text-align: left;
+  width: auto!important;
+}
+
+/* specific custom class for contacts details page only*/
+.contact-details .tab-container {
+  border-color: none;
+  margin: 0px 25px;
+}
+.contact-details .tab-container>.q-card {
+  box-shadow: none;
+}
+.contact-details .tab-container .q-tab {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 0 25px;
+  text-transform: capitalize;
+}
+.contact-details .tab-container .q-tab--active {
+  color: #0660AE;
+}
+.contact-details .tab-container .q-tab__label {
+  font-size: 18px;
+}
+.contact-details .tab-container .q-tab-panel {
+  padding:0 0 20px;
+}
+.notes.link-notes,
+.notes.link-notes .q-field__control::after { 
+  height: 220px!important; 
+}
+.notes.link-notes .q-field__control-container,
+.notes.link-notes textarea {
+  max-height: 205px!important;
+  min-height: 205px!important;
+}
+.contact-details .q-btn.adjust-top {
+  font-size: 14px;
+  margin-top: 5px;
+  width: auto;
+}
+.contact-details .table-container {
+  padding: 0 25px;
+} 
+.contact-details .q-table__container { 
+   margin: 0;
+}
+.contact-details .table-heading-container { 
+  margin: 20px 25px; 
+}
+.contact-details .table-heading-container i.material-icons { 
+  color: #0660AE; 
+  font-size: 30px;
+}
+.my-filter-list.system-user { 
+  width: 200px; 
+}
+.my-filter-list.system-user .q-item { 
+  width: 185px;
+}
+.q-manual-focusable-focused > .q-focus-helper {
+  background: none!important;
+}
+
+@media (max-width: 1555px) {
+  .contacts .page-filter > div:nth-of-type(2) .filter-fld,
+  .contacts .page-filter > div:nth-of-type(2) .filter-btn {
+    padding: 0 0 10px 10px;
+  }
+
+}
+@media (max-width: 1281px) {
+  .contacts .page-filter .right-panel {  
+    min-width: 100%; 
+  }
+  .contacts .page-filter .right-panel-container {  
+    float: left!important;
+    margin-right: 50px; 
+    padding-top: 10px;
+  }
+  .contacts .page-filter .right-panel-container>div:first-of-type .q-btn {  
+    margin-left: 0;
+  }
+}
+@media (max-width: 1024px) { 
+  .contacts .filter-badge {
+    left: -51px;
+  }
+  .contacts .page-filter .q-btn .q-btn__wrapper {
+    margin: 0;
+    min-height: 2.572em;
+    padding: 4px 16px;
+  }
+  .contact-details .page__heading .col {
+    flex: 0 0 auto;
+  }
+  .contacts .my-filter {
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .contact-details .tab-container { 
+    margin : 0; 
+  }
+  .contact-details .page__heading .filter-button { 
+    font-size: 14px; 
+  }
+  .page-filter { 
+    margin-left: 0; 
+  }
+
+}
+@media (max-width: 720px) {
+  .contacts .badge-container {
+    display: inline-flex;
+    float: none;
+  }
+  .contacts .filter-badge {
+    top: -12px;
+  }
+  .contacts .page-filter>div:nth-of-type(2),
+  .contacts .page-filter>div:nth-of-type(2) > .row > .col-lg-auto {
+    width: 100%!important;
+  }
+}
+@media (max-width: 650px) {
+}
+@media (max-width: 599px) {
+  .contacts .filter-badge {
+    left: -63px;
+  }
+  .contacts .filter-badge.for-search {
+    left: -31px;
+  }
+  .contacts .page__heading { 
+    margin-left: 0; 
+  }
+  .contacts .page-filter .my-filter { 
+    margin: 0; 
+  }
+  .contacts .page-filter>div:nth-of-type(2) .q-btn { 
+    padding: 4px 16px!important; 
+  }
+}
+@media (max-width: 428px) {
+  .contacts .right-panel-container > .float-left:nth-of-type(3) > button {
+    margin-right: 15px;
+  }
+  .contacts .right-panel-container > .float-left:last-of-type > button {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

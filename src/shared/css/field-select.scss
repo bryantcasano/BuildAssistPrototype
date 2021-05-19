@@ -1,0 +1,175 @@
+/* class for Contact Details default select fields */
+.field-select { 
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.6);
+  height: 36px;
+  min-height: 36px;
+  padding: 4px 12px;
+  transition: border-color 0.36s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%!important; 
+}
+.field-select.multi {
+  height: auto;
+}
+.field-select.multi .q-btn__content>.material-icons {
+  top: 4px;
+}
+.field-select.multi .q-btn__content>div{
+  padding-right: 20px;
+  text-align: left;
+  white-space: normal;
+  width: 100%;
+}
+.field-select .q-btn__wrapper {
+  min-height: unset;
+  padding: 0;
+}
+
+.field-select-dropdown .q-item {
+  font-size: 14px;
+  min-height: 25px;
+  padding: 4px 16px;
+}
+.field-select-dropdown.no-scroll { 
+  padding: 0!important; 
+}
+.field-select .q-focus-helper,
+.field-select-dropdown .filter-clear:active .q-focus-helper,
+.field-select-dropdown .filter-clear .q-focus-helper {
+  background: inherit!important;
+  opacity: 0!important;
+  transition: unset!important;
+}
+.field-select.fs-selected { 
+  border: 2px solid #0660AE; 
+} 
+.field-select.fs-required {
+  border: 2px solid #FF0000; 
+} 
+.field-select.fs-selected .q-btn__content>div { 
+  display: none; 
+} 
+.field-select.fs-with-value { 
+  color: #222; 
+} 
+.field-select.fs-with-value .q-btn__content>div { 
+  display: block; 
+} 
+.field-select .q-icon:first-of-type { 
+  display:none; 
+}
+.field-select .q-icon.on-right { 
+  color: #0660AE;
+  position: absolute;
+  right: 6px;
+ }
+
+.field-select-dropdown{ 
+  padding: 8px 15px 8px 10px!important; 
+}
+.field-select-dropdown .q-field__prepend { 
+  padding-right: 5px; 
+}
+.field-select-dropdown .q-field i.q-icon { 
+  padding-left: 5px!important; 
+}
+.field-select-dropdown .filter-search { 
+  width: 100%; 
+}
+.field-select-dropdown .filter-search .q-field__inner *,
+.field-select-dropdown .filter-clear { 
+  height: 40px!important; 
+} 
+.field-select-dropdown .filter-clear { 
+  padding: 0 5px; 
+} 
+.field-select-dropdown .q-item__section>div:first-of-type { 
+  padding-bottom: 5px; 
+}
+.field-select-dropdown .q-item__section--main >.q-item { 
+  padding: 4px 8px; 
+}
+.field-select-dropdown .q-item__section--main >.q-item:hover { 
+  background-color: #c4eccb; 
+}
+.field-select-dropdown.custom { 
+  padding: 0!important; 
+}
+.field-select-dropdown.custom .fsd-search-field { 
+  border-bottom: 1px solid #f1eeee;
+  margin-bottom: 10px;
+  padding: 8px 15px 5px 10px; 
+}
+.field-select-dropdown.custom .item-filter { 
+  padding: 7px 10px;
+}
+.field-select-dropdown.custom .q-item__section--main >.q-item:hover { 
+  background-color: transparent; 
+}
+.field-select-dropdown.custom .q-item__section--main >.q-item:active { 
+  background: inherit;
+  transition: unset; 
+}
+.field-select-dropdown.custom .fsd-select {
+  position: absolute;
+  right: 15px;
+}
+.field-select-dropdown.custom .fsd-select>div { 
+  width: 180px; 
+}
+.field-select-dropdown.custom .fsd-select,
+.field-select-dropdown.custom .fsd-select>div * { 
+  height: 30px; 
+  min-height: 30px;
+}
+.field-select-dropdown.custom .fsd-select .q-field__label { 
+  font-size: 14px; 
+  top: 5px;
+}
+.field-select-dropdown.custom .fsd-select .q-field__control { 
+  border-radius: 2px; 
+}
+.field-select-dropdown.custom .fsd-select .q-select__dropdown-icon { 
+  color: #0660AE;
+  padding-left: 20px!important; 
+}
+.field-select-dropdown.custom .fsd-select.q-field--float .q-field__label { 
+  display: none; 
+}
+.field-select-dropdown.custom .fsd-select.q-field--float .q-field__control-container { 
+  padding-top: 6px; 
+}
+.field-select-dropdown .clear-fsd { 
+  padding-left: 3px; 
+}
+.field-select-dropdown .clear-fsd .q-btn {
+  border: 0.5px solid #BBBBBB;
+  padding-left: 5px;
+  width: 100%;
+}
+.field-select-dropdown .item-filter.multi {
+  padding: 0;
+}
+.field-select-dropdown .item-filter.multi .q-checkbox__inner {
+  height: 20px;
+  margin: 5px 10px;
+  min-width: 20px;
+  width: 20px;
+}
+.field-select-dropdown .item-filter.multi .q-checkbox__bg {
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+}
+.fsd-select-popup .q-item  { 
+  min-height: unset; 
+}
+.fsd-select-popup .q-item * { 
+  background: transparent!important; 
+}
+.fsd-select-popup .q-item:hover { 
+  background: #c4eccb!important; 
+} 

@@ -1,0 +1,58 @@
+
+  .claim-reports-container .page__heading {
+    color: #41474E;
+    font-size: 21px;
+    margin-left: 0;
+    text-transform: none;
+  }
+  .claim-reports-container .bold {
+    font-weight: 600;
+  }
+  .claim-reports-container table tr th,
+  .claim-reports-container table tr td {
+    text-align: left!important;
+    vertical-align: top;
+  }
+  .claim-reports-container table tr th {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .claim-reports-container table tr td {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .claim-reports-container table tr th:first-of-type,
+  .claim-reports-container table tr td:first-of-type  {
+    padding-left: 35px;
+  }
+  .claim-reports-container table tr th:nth-of-type(2),
+  .claim-reports-container table tr td:nth-of-type(2), 
+  .claim-reports-container table tr th:nth-of-type(4),
+  .claim-reports-container table tr td:nth-of-type(4){
+    max-width: 120px;
+    min-width: 120px;
+    white-space: normal;
+  }
+  .claim-reports-container table tr th:nth-of-type(5),
+  .claim-reports-container table tr td:nth-of-type(5)  {
+    max-width: 150px;
+    min-width: 150px;
+    white-space: normal;
+  }
+  .claim-reports-container table tr th:last-of-type,
+  .claim-reports-container table tr td:last-of-type  {
+    min-width: 150px;
+    padding-right: 35px;
+  }
+  .claim-reports-container table tr td:last-of-type > img,
+  .claim-reports-container table tr td:last-of-type > .md-icon {
+    margin-right: 15px;
+  }
+  .claim-reports-container table tr td:last-of-type .md-icon {
+    color: #0660AE;
+    cursor: pointer;
+  }
+  .claim-reports-container table tr td:last-of-type .md-icon.not-active {
+    color: #D6D5D5;
+    cursor: not-allowed;
+  }
