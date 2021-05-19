@@ -9,7 +9,7 @@ export default {
   name: 'App',
   meta: {
     title: 'Project Phoenix',
-    titleTemplate: title => `${title} | Project Phoenix`, 
+    titleTemplate: title => `${title} | BuildAssist`, 
     meta: {
       equiv: { 'http-equiv': 'Content-Security-Policy', 'content': 'frame-src \'self\' \'unsafe-eval\'' },
       equiv: { 'http-equiv': 'Content-Security-Policy', 'content': 'frame-src https://www.google.com/'}
