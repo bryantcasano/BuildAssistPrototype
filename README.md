@@ -1,5 +1,3 @@
-# Project Phoenix
-
 Build Assist Prototype
 
 ## Install the dependencies
